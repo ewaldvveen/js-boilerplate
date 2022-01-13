@@ -2,7 +2,10 @@
   "name": "javascript-boilerplate",
   "version": "1.0.0",
   "description": "Personal JavaScript development environment of Ewald van Veen",
-  "scripts": {},
+  "scripts": {
+    "prestart": "node buildScripts/startMessage.js",
+    "start": "node buildScripts/srcServer.js"
+  },
   "author": "Ewald van Veen",
   "license": "MIT",
   "dependencies": {
